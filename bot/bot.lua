@@ -240,7 +240,8 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-      "bot",
+      "supergroup"
+     "bot",
       "commands",
       "english_lang",
       "export_gban",
@@ -274,7 +275,7 @@ function create_config( )
       "nerkharz",
       "arabic"
      },
-    sudo_users = {176619893},
+    sudo_users = {189308877},
     admin_users = {},
     disabled_channels = {}
   }
